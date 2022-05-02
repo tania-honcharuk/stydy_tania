@@ -1,0 +1,55 @@
+.advantages-block {
+  width: 100%;
+  height: 800px;
+  background: url("/stydy_tania/img/Rectangle\ 29.png");
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 125px;
+  padding-right: 138px;
+}
+
+.advantages-subtitle {
+  width: 314px;
+  height: 52px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #E4C280;
+}
+
+.advantages-title {
+  width: 413px;
+  height: 60px;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #FFFFFF;
+}
+
+.advantage {
+  width: 28%;
+}
+
+.advantages-list {
+  margin-left: 125px;
+  margin-right: 138px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
