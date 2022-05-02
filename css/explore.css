@@ -1,0 +1,138 @@
+.explore-block {
+    width: 100%;
+    height: 1080px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore-subtitle {
+    width: 272px;
+    height: 52px;
+    margin-top: 34px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #E4C280;
+}
+
+.explore-title {
+    width: 413px;
+    height: 60px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #000000;
+}
+
+.explore-text {
+    width: 729px;
+    height: 92px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #878787;
+}
+
+.explore-info-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.explore-info {
+    width: 450px;
+    height: 642px;
+    background: #F7F7F7;
+    position: relative;
+}
+
+.second-explore {
+    margin: 0 105px;
+}
+
+.explore-border-block {
+    width: 450px;
+    height: 642px;
+    background: transparent;
+    border: 0.5px solid #878787;
+    position: absolute;
+    top: 35px;
+    right: 44px;
+}
+
+.explore-img {
+    width: 100%;
+    height: 395px;
+}
+
+.extra-info {
+    width: 100%;
+    height: 247px;
+    padding-left: 45px;
+    padding-top: 34px;
+}
+
+.info-title {
+    width: 253px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.info-text {
+    margin: 12px 0;
+    max-width: 365px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #878787;
+}
+
+.explore-btn {
+    width: 154px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #E4C280;
+    border: 0;
+    background-color: transparent;
+}

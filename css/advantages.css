@@ -47,6 +47,18 @@
   display: flex;
 }
 
+.first-adv,
+.second-adv,
+.third-adv {
+  margin-top: 91px;
+}
+
+.forth-adv,
+.fifth-adv,
+.sixth-adv {
+  margin-top: 134px;
+}
+
 .advantages-list {
   margin-left: 125px;
   margin-right: 138px;
@@ -59,4 +71,37 @@
 .adv-text-block {
   display: flex;
   flex-direction: column;
+}
+
+.adv-img {
+  width: 50px;
+height: 40px;
+}
+
+.adv-title {
+  height: 20px;
+  margin: 25px 0 0 20px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.adv-text {
+  height: 92px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.25px;
+color: #878787;
 }
