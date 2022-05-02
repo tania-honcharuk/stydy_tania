@@ -11,6 +11,7 @@
 }
 
 .advantages-subtitle {
+  margin-top: 69px;
   width: 314px;
   height: 52px;
   font-family: 'Helvetica';
@@ -43,6 +44,7 @@
 
 .advantage {
   width: 28%;
+  display: flex;
 }
 
 .advantages-list {
@@ -52,4 +54,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.adv-text-block {
+  display: flex;
+  flex-direction: column;
 }
