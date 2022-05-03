@@ -9,10 +9,15 @@
   <link rel="stylesheet" href="/stydy_tania/css/about-us.css">
   <link rel="stylesheet" href="/stydy_tania/css/explore.css">
   <link rel="stylesheet" href="/stydy_tania/css/advantages.css">
+  <link rel="stylesheet" href="/stydy_tania/css/blog.css">
+  <link rel="stylesheet" href="/stydy_tania/css/footer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 <body>
-  <div class="main-info">
+  <!-- <div class="main-info">
     <div class="header">
       <div class="burger-block">
         <div class="burger-menu">
@@ -22,9 +27,7 @@
         </div>
         <span class="nav-text">MENU</span>
       </div>
-      <div class="logo-block">
-        <img src="/stydy_tania/img/Rectangle 2.png" alt="logo-kavalier" class="logo-img">
-      </div>
+      <img src="/stydy_tania/img/Rectangle 2.png" alt="logo-kavalier" class="logo-img">
       <button class="search-btn">
         <img src="/stydy_tania/img/search-vector.svg" alt="search" class="search-img">
       </button>
@@ -49,15 +52,18 @@
         <span class="gallery-line third"></span>
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="timetable-block">
+  <!-- <div class="timetable-block">
     <div class="date-block borders">
       <h6 class="table-title">Arrival date</h6>
       <div class="date-info">
         <p class="day-number">15</p>
-        <p class="month">April, 2020</p>
-        <p class="week-day">Monday</p>
+        <div class="full-date">
+          <p class="month">April, 2020</p>
+          <p class="week-day">Monday</p>
+        </div>
+        <button class="date-change"><img src="/stydy_tania/img/arrow.svg" alt="btn-arrow"></button>
       </div>
 
     </div>
@@ -65,31 +71,46 @@
       <h6 class="table-title">Departure date</h6>
       <div class="date-info">
         <p class="day-number">27</p>
-        <p class="month">April, 2020</p>
-        <p class="week-day">Saturday</p>
+        <div class="full-date">
+          <p class="month">April, 2020</p>
+          <p class="week-day">Saturday</p>
+        </div>
+        <button class="date-change"><img src="/stydy_tania/img/arrow.svg" alt="btn-arrow"></button>
       </div>
     </div>
     <div class="guests-block borders">
       <h6 class="table-title">Adults</h6>
-
+      <div class="guests-number">
+        <p class="guests-counter day-number">1</p>
+        <button class="date-change guests-btn">
+          <img src="/stydy_tania/img/arrow.svg" alt="btn-arrow" class="more">
+          <img src="/stydy_tania/img/arrow.svg" alt="btn-arrow" class="less">
+        </button>
+      </div>
     </div>
     <div class="guests-block borders">
       <h6 class="table-title">Children</h6>
-
+      <div class="guests-number">
+        <p class="guests-counter day-number">0</p>
+        <button class="date-change guests-btn">
+          <img src="/stydy_tania/img/arrow.svg" alt="btn-arrow" class="more">
+          <img src="/stydy_tania/img/arrow.svg" alt="btn-arrow" class="less">
+        </button>
+      </div>
     </div>
     <div class="check-block borders">
       <button class="check-btn">Check Availability</button>
     </div>
-  </div>
+  </div> -->
 
   <div class="about-us-block">
     <div class="about-info">
-      <h3 class="about-subtitle text">WELCOME TO Kavalier Boutique Hotel</h3>
-      <h2 class="about-title text">A New Vision of Luxury</h2>
-      <p class="about-strong-text text">Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros.</p>
-      <p class="about-text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris ferme ntum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
+      <h3 class="about-subtitle">WELCOME TO Kavalier Boutique Hotel</h3>
+      <h2 class="about-title">A New Vision of Luxury</h2>
+      <p class="about-strong-text">Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros.</p>
+      <p class="about-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris ferme ntum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
       <img src="/stydy_tania/img/image 1.png" alt="signature" class="signature-img">
-      <p class="about-text text">Managing Director</p>
+      <p class="about-text">Managing Director</p>
     </div>
     <div class="about-media">
       <div class="border-box"></div>
@@ -104,7 +125,7 @@
       </div>
     </div>
   </div>
-
+  
   <div class="explore-block">
     <h3 class="explore-subtitle">Explore</h3>
     <h2 class="explore-title">The Hotel</h2>
@@ -139,7 +160,7 @@
       </div>
     </div>
   </div>
-  
+
   <div class="advantages-block">
     <h3 class="advantages-subtitle">Why Choose Kavalier Hotel</h3>
     <h2 class="advantages-title">The Advanteges</h2>
@@ -188,5 +209,110 @@
       </div>
     </div>
   </div>
+
+  <div class="blog-block">
+    <h3 class="blog-subtitle">What’s New</h3>
+    <h2 class="blog-title">Blog</h2>
+    <div class="blog-info-block">
+      <div class="blog-info first-blog">
+        <div class="blog-border-block-top"></div>
+        <img src="/stydy_tania/img/blog-first.png" alt="girl" class="blog-img">
+        <div class="simple-blog">
+          <span class="news-time">NOVEMBER 28, 2019 / in 
+            <span class="news-section">SIGHTS</span>
+          </span>
+          <p class="news-title">Ut Tellus Dolor </p>
+          <p class="news-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
+          <button class="blog-btn">Read More</button>
+          <div class="blog-border-block-bottom"></div> 
+        </div>
+      </div>
+      <div class="blog-info second-blog">
+        <div class="blog-border-block-top"></div>
+        <img src="/stydy_tania/img/blog-second.png" alt="girl" class="blog-img">
+        <div class="simple-blog">
+          <span class="news-time">NOVEMBER 19, 2019 / IN 
+            <span class="news-section">News</span>
+          </span>
+          <p class="news-title">Vivamus Eget Nibh</p>
+          <p class="news-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
+          <button class="blog-btn">Read More</button>
+          <div class="blog-border-block-bottom"></div> 
+        </div>
+      </div>
+      <div class="blog-info third-blog">
+        <div class="blog-border-block-top"></div>
+        <img src="/stydy_tania/img/blog-third.png" alt="girl" class="blog-img">
+        <div class="simple-blog">
+          <span class="news-time">NOVEMBER 8, 2019 / in
+            <span class="news-section">Tips</span>
+          </span>
+          <p class="news-title">Nemo Enim Ipsam</p>
+          <p class="news-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
+          <button class="blog-btn">Read More</button>  
+          <div class="blog-border-block-bottom"></div> 
+        </div>
+      </div>
+    </div>
+    <button class="news-btn">See all news</button>
+  </div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-info">
+        <h5 class="footer-title">Contact</h5>
+        <div class="footer-contact">
+          <span class="contact-title">Address:</span>
+          <span class="contact-text">Lviv, vul.Staroznesenska, 70</span>
+        </div>
+        <div class="footer-contact">
+          <span class="contact-title">Phone:</span>
+          <div class="phone-block">
+            <span class="contact-text">+38 (032) 242-3999</span>
+            <span class="contact-text">+38 (093) 170-4545</span>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <span class="contact-title">Social:</span>
+          <img src="/stydy_tania/img/Facebook.svg" alt="Facebook" class="social-networks">
+          <img src="/stydy_tania/img/Twitter.svg" alt="Twitter" class="social-networks">
+          <img src="/stydy_tania/img/TripAdvisor.svg" alt="TripAdvisor" class="social-networks">
+          <img src="/stydy_tania/img/Foursquare.svg" alt="Foursquare" class="social-networks">
+          <img src="/stydy_tania/img/Instagram.svg" alt="Instagram" class="social-networks">
+        </div>
+        <div class="footer-contact">
+          <span class="contact-title">Email:</span>
+          <span class="contact-text email">reception@kavalier.com.ua</span>
+        </div>
+      </div>
+      <div class="footer-info">
+        <h5 class="footer-title">Main Menu</h5>
+        <span class="footer-text">About</span>
+        <span class="footer-text">Special Offers</span>
+        <span class="footer-text">News</span>
+        <span class="footer-text">Contact Us</span>
+      </div>
+      <div class="footer-info">
+        <h5 class="footer-title">Things to do</h5>
+        <span class="footer-text">Tennis Club</span>
+        <span class="footer-text">Kavalier Beach Club</span>
+        <span class="footer-text">Restaurant and Vinarium</span>
+        <span class="footer-text">Excursions</span>
+        <span class="footer-text">Events</span>
+      </div>
+      <div class="footer-info">
+        <h5 class="footer-title">Rooms & Suits</h5>
+        <span class="footer-text">Classic</span>
+        <span class="footer-text">Superior</span>
+        <span class="footer-text">Family Superior</span>
+        <span class="footer-text">Semi-Suit</span>
+        <span class="footer-text">Suit</span>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <hr class="footer-line">
+      <span class="contact-text copyright">Copyright © 2020 Kavalier Boutique Hotel. All Rights Reserved.</span>
+    </div>
+  </footer>
 </body>
 </html>
