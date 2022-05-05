@@ -34,25 +34,27 @@
 }
 
 .main-info {
-  background-image: url("/stydy_tania/img/Facade.png");
-  background-size: contain;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 100%), linear-gradient(180deg, rgba(2, 2, 2, 0.3) 0%, rgba(255, 255, 255, 0) 100%), url(/stydy_tania/img/facade.jpeg), #FFFFFF;
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 1080px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
 }
 
 .header{
   width: 100%;
+  padding: 0 50px 0 60px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .burger-block {
-  margin: 45px 0 45px 57px;
+  margin: 45px 3% 45px 0;
   height: 40px;
   width: 104px;
   display: flex;
@@ -74,7 +76,7 @@
   height: 15%;
 }
 
-.nav-text {
+.header-text {
   font-size: 18px;
   line-height: 89%;
   letter-spacing: 0.75px;
@@ -85,7 +87,11 @@
 .logo-img {
   width: 230px;
   height: 105px;
-  margin: 13px 24% 0 35%;
+  margin: 0px 0 0 10%;
+}
+
+.header-btn {
+  display: flex;
 }
 
 .search-btn {
@@ -117,9 +123,6 @@
 }
 
 .language {
-  font-family: 'Helvetica';
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
   line-height: 89%;
   display: flex;
@@ -149,8 +152,6 @@
 }
 
 .info-block {
-  width: 639px;
-  height: 390px;
   margin-top: 400px;
   display: flex;
   flex-direction: column;
@@ -158,9 +159,6 @@
 }
 
 .text-style {
-  font-family: 'Helvetica';
-  font-style: normal;
-  font-weight: 400;
   text-align: center;
   letter-spacing: 0.75px;
   text-transform: uppercase;
@@ -184,11 +182,8 @@
   background-color: #E4C280;
   border: 0;
   color: #FFFFFF;
-  font-family: 'Helvetica';
-  font-style: normal;
-  font-weight: 400;
   font-size: 18px;
-  line-height: 89%;
+  line-height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -201,7 +196,7 @@
   margin-top: 141px;
 }
 
-.gallery-btn {
+.main-gallery-btn {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -209,7 +204,6 @@
   justify-content: space-around;
   bottom: 43%;
   right: 6%;
-  width: 96px;
   height: 30px;
 }
 
@@ -233,6 +227,10 @@
 }
 
 @media (max-width: 1440px) {
+  .logo-img {
+    width: 212px;
+  }
+
   .book-btn {
     width: 128px;
     height: 50px;
@@ -241,6 +239,20 @@
   .room-btn {
     font-size: 14px;
     line-height: 16px;
+  }
+
+  .book-btn {
+    height: 70px;
+    width: 180px;
+    font-size: 18px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 36px;
   }
 }
 
@@ -256,8 +268,118 @@
   }
 }
 
+@media (max-width: 1024px) {
+  .main-info {
+    height: 1024px;
+  }
+
+  .first {
+    width: 38px;
+  }
+
+  .second,
+  .third {
+    width: 10px;
+  }
+  
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .main-gallery-btn {
+    bottom: 45%;
+  }
+
+  .discover-btn {
+    width: 184px;
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 768px) {
+  .header {
+    padding: 0 20px;
+  }
+
+  .burger-block {
+    margin: 45px 0;
+  }
+
+  .logo-img {
+    margin: 0;
+  }
+
   .block-subtitle {
     margin-top: 12px;
+  }
+
+  .search-btn {
+    margin-right: 11px;
+  }
+
+  .language-btn {
+    margin-right: 19px;
+  }
+
+  .book-btn {
+    margin-left: 0;
+  }
+
+  .info-block {
+    margin-top: 374px;
+  }
+}
+
+@media (max-width: 475px) {
+  .main-info {
+    height: 566px;
+  }
+
+  .header {
+    justify-content: flex-start;
+  }
+
+  .block-subtitle {
+    margin-top: 23px;
+    height: 12px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .block-title {
+    margin-top: 7px;
+    height: 24px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .header-text,
+  .header-btn,
+  .main-gallery-btn {
+    display: none;
+  }
+
+  .info-block {
+    margin-top: 154px;
+  }
+
+  .subtitle {
+    font-size: 10px;
+    line-height: 18px;
+    margin-bottom: 2px;
+  }
+
+  .title {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 47px;
+  }
+
+  .arrow-block {
+    margin-top: 74px;
   }
 }
