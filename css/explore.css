@@ -37,6 +37,10 @@
   position: relative;
 }
 
+.explore-info:first-child {
+  opacity: .99;
+}
+
 .second-explore {
   margin: 0 105px;
 }
@@ -49,6 +53,7 @@
   position: absolute;
   bottom: 35px;
   right: 44px;
+  z-index: 1;
 }
 
 .explore-img {

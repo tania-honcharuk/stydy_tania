@@ -43,6 +43,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .header{
@@ -87,7 +88,7 @@
 .logo-img {
   width: 230px;
   height: 105px;
-  margin: 0px 0 0 10%;
+  margin-left: 10%;
 }
 
 .header-btn {
@@ -204,6 +205,7 @@
   justify-content: space-around;
   bottom: 43%;
   right: 6%;
+  width: 64px;
   height: 30px;
 }
 
@@ -227,6 +229,17 @@
 }
 
 @media (max-width: 1440px) {
+  .block-subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .block-title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+
   .logo-img {
     width: 212px;
   }
@@ -248,29 +261,82 @@
   }
 
   .subtitle {
+    height: 20px;
     font-size: 14px;
   }
 
   .title {
+    height: 66px;
     font-size: 36px;
   }
 }
 
 @media (max-width: 1280px) {
-  .block-subtitle {
-    font-size: 14px;
-    line-height: 16px;
+  .main-info {
+    height: 720px;
   }
 
-  .block-title {
-    font-size: 36px;
-    line-height: 40px;
+  .header {
+    padding-right: 77px;
+  }
+
+  .logo-img {
+    margin-left: 23%;
+  }
+
+  .header-btn {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+
+  .search-btn,
+  .language-btn {
+    margin: 0;
+  }
+
+  .book-btn {
+    height: 50px;
+    width: 123px;
+    font-size: 14px;
+    margin: 0;
+  }
+
+
+
+  .info-block {
+    margin-top: 221px;
+  }
+
+  .discover-btn {
+    font-size: 14px;
+    line-height: 16px;
+    width: 184px;
+    height: 42px;
+  }
+
+  .arrow-block {
+    margin-top: 60px;
   }
 }
 
 @media (max-width: 1024px) {
+  .block-subtitle {
+    height: 22px;
+  }
+
+  .block-title {
+    height: 42px;
+  }
+
   .main-info {
     height: 1024px;
+  }
+
+  .header-btn * {
+    margin: 0;
   }
 
   .first {
@@ -281,17 +347,22 @@
   .third {
     width: 10px;
   }
+
+  .logo-img {
+    width: 230px;
+    height: 105px;
+  }
   
+  .info-block {
+    margin-top: 374px;
+  }
+
   .subtitle {
     font-size: 14px;
   }
 
   .title {
     font-size: 36px;
-  }
-
-  .main-gallery-btn {
-    bottom: 45%;
   }
 
   .discover-btn {
@@ -310,24 +381,22 @@
   }
 
   .logo-img {
-    margin: 0;
+    margin-left: 15%;
   }
 
-  .block-subtitle {
-    margin-top: 12px;
-  }
 
-  .search-btn {
+
+  /* .search-btn {
     margin-right: 11px;
-  }
+  } */
 
-  .language-btn {
+  /* .language-btn {
     margin-right: 19px;
   }
 
   .book-btn {
     margin-left: 0;
-  }
+  } */
 
   .info-block {
     margin-top: 374px;
@@ -344,14 +413,12 @@
   }
 
   .block-subtitle {
-    margin-top: 23px;
     height: 12px;
     font-size: 12px;
     line-height: 16px;
   }
 
   .block-title {
-    margin-top: 7px;
     height: 24px;
     font-size: 18px;
     line-height: 20px;
@@ -381,5 +448,10 @@
 
   .arrow-block {
     margin-top: 74px;
+  }
+
+  .logo-img {
+    width: 182px;
+    height: 83px;
   }
 }
