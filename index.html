@@ -5,20 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/stydy_tania/css/header.css">
-  <link rel="stylesheet" href="/stydy_tania/css/timetable.css">
-  <link rel="stylesheet" href="/stydy_tania/css/about-us.css">
-  <link rel="stylesheet" href="/stydy_tania/css/explore.css">
-  <link rel="stylesheet" href="/stydy_tania/css/advantages.css">
-  <link rel="stylesheet" href="/stydy_tania/css/rooms.css">
-  <link rel="stylesheet" href="/stydy_tania/css/blog.css">
-  <link rel="stylesheet" href="/stydy_tania/css/footer.css">
+  <link rel="stylesheet" href="/stydy_tania/css/timetable-section.css">
+  <link rel="stylesheet" href="/stydy_tania/css/welcome-section.css">
+  <link rel="stylesheet" href="/stydy_tania/css/explore-section.css">
+  <link rel="stylesheet" href="/stydy_tania/css/advantages-section.css">
+  <link rel="stylesheet" href="/stydy_tania/css/rooms-section.css">
+  <link rel="stylesheet" href="/stydy_tania/css/blog-section.css">
+  <link rel="stylesheet" href="/stydy_tania/css/footer-section.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <title>Kavalier</title>
 </head>
 <body>
-    <div class="main-info">
+  <section class="main-section">
     <div class="header">
       <div class="burger-block">
         <div class="burger-menu">
@@ -37,9 +37,7 @@
           <span class="language">en</span>
           <img src="/stydy_tania/img/arrow-vector.svg" alt="arrow" class="arrow-img">
         </button>
-        <button class="book-btn">
-          book now
-        </button>
+        <button class="book-btn">book now</button>
       </div>
     </div>
     <div class="info-block">
@@ -49,15 +47,15 @@
       <div class="arrow-block">
         <img src="/stydy_tania/img/double-arrow.svg" alt="arrow-down">
       </div>
-      <div class="main-gallery-btn">
-        <span class="gallery-line first"></span>
-        <span class="gallery-line second"></span>
-        <span class="gallery-line third"></span>
-      </div>
     </div>
-  </div>
+    <div class="main-gallery-btn">
+      <span class="gallery-line first"></span>
+      <span class="gallery-line second"></span>
+      <span class="gallery-line third"></span>
+    </div>
+  </section>
 
-  <div class="timetable-block">
+  <section class="timetable-section">
     <div class="date-block borders">
       <h6 class="table-title">Arrival date</h6>
       <div class="date-info">
@@ -103,118 +101,140 @@
     <div class="check-block borders">
       <button class="check-btn">Check Availability</button>
     </div>
-  </div>
+  </section>
 
-  <div class="about-us-block">
-    <div class="about-info">
-      <h3 class="about-subtitle">WELCOME TO Kavalier Boutique Hotel</h3>
-      <h2 class="about-title">A New Vision of Luxury</h2>
-      <p class="about-strong-text">Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros.</p>
-      <p class="about-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris ferme ntum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
-      <img src="/stydy_tania/img/image 1.png" alt="signature" class="signature-img">
-      <p class="about-text">Managing Director</p>
-    </div>
-    <div class="about-media">
-      <div class="border-box"></div>
-      <img src="/stydy_tania/img/Rectangle 31.png" alt="Kavalier" class="about-img">
-      <div class="img-btn-block">
-        <button class="img-btn">
-          <img src="/stydy_tania/img/photo.svg" alt="photos" class="btn-icon">
-        </button>
-        <button class="img-btn">
-          <img src="/stydy_tania/img/video.svg" alt="videos" class="btn-icon">
-        </button>
+  <section class="welcome-section">
+    <div class="welcome-section-wrap">
+      <div class="welcome-block welcome-info">
+        <h3 class="block-subtitle welcome-subtitle">WELCOME TO Kavalier Boutique Hotel</h3>
+        <h2 class="block-title welcome-title">A New Vision of Luxury</h2>
+        <span class="welcome-strong-text">Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros.</span>
+        <span class="welcome-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris ferme ntum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</span>
+        <div class="signature">
+          <img src="/stydy_tania/img/image 1.png" alt="signature" class="signature-img">
+          <span class="signature-author">Managing Director</span>
+        </div>
+      </div>
+      <div class="welcome-block welcome-media">
+        <div class="media-border-box"></div>
+        <img src="/stydy_tania/img/Rectangle 31.png" alt="Kavalier" class="welcome-img">
+        <div class="welcome-btn-block">
+          <button class="welcome-btn photo">
+            <img src="/stydy_tania/img/photo.svg" alt="photos" class="btn-icon">
+          </button>
+          <button class="welcome-btn video">
+            <img src="/stydy_tania/img/video.svg" alt="videos" class="btn-icon">
+          </button>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="explore-block">
-    <h3 class="explore-subtitle">Explore</h3>
-    <h2 class="explore-title">The Hotel</h2>
-    <p class="explore-text">Donec porta diam eu massa. Quisque diam lorem, interdum vitae,dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum.</p>
+  <section class="explore-section">
+    <h3 class="explore-subtitle block-subtitle">Explore</h3>
+    <h2 class="explore-title block-title">The Hotel</h2>
+    <span class="explore-text">Donec porta diam eu massa. Quisque diam lorem, interdum vitae,dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum.</span>
     <div class="explore-info-block">
       <div class="explore-info first-explore">
         <div class="explore-border-block"></div>
-        <img src="/stydy_tania/img/first-explore.png" alt="girl" class="explore-img">
+        <div class="explore-gallery">
+          <img src="/stydy_tania/img/first-explore.png" alt="girl" class="explore-img">
+          <div class="explore-gallery-btn">
+            <button class="arrow-btn previous-btn"><img src="/stydy_tania/img/arrow white.svg" alt="previous" class="next-arrow"></button>
+            <button class="arrow-btn next-btn"><img src="/stydy_tania/img/arrow white.svg" alt="next" class="previous-arrow"></button>
+          </div>
+        </div>
         <div class="extra-info">
-          <p class="info-title">Wellness & Spa</p>
-          <div class="info-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</div>
+          <span class="info-title">Wellness & Spa</span>
+          <span class="info-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</span>
           <button class="explore-btn">Explore more</button>  
         </div>
       </div>
       <div class="explore-info second-explore">
         <div class="explore-border-block"></div>
-        <img src="/stydy_tania/img/second-explore.png" alt="girl" class="explore-img">
+        <div class="explore-gallery">
+          <img src="/stydy_tania/img/second-explore.png" alt="girl" class="explore-img">
+          <div class="explore-gallery-btn">
+            <button class="arrow-btn previous-btn"><img src="/stydy_tania/img/arrow white.svg" alt="previous" class="next-arrow"></button>
+            <button class="arrow-btn next-btn"><img src="/stydy_tania/img/arrow white.svg" alt="next" class="previous-arrow"></button>
+          </div>
+        </div>
         <div class="extra-info">
-          <p class="info-title">Restaurants & Bars</p>
-          <div class="info-text">Integer rutrum ante eu lacus. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh.</div>
+          <span class="info-title">Restaurants & Bars</span>
+          <span class="info-text">Integer rutrum ante eu lacus. Vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh.</span>
           <button class="explore-btn">Explore more</button>  
         </div>
       </div>
       <div class="explore-info third-explore">
         <div class="explore-border-block"></div>
-        <img src="/stydy_tania/img/third-explore.png" alt="girl" class="explore-img">
+        <div class="explore-gallery">
+          <img src="/stydy_tania/img/third-explore.png" alt="girl" class="explore-img">
+          <div class="explore-gallery-btn">
+            <button class="arrow-btn previous-btn"><img src="/stydy_tania/img/arrow white.svg" alt="previous" class="next-arrow"></button>
+            <button class="arrow-btn next-btn"><img src="/stydy_tania/img/arrow white.svg" alt="next" class="previous-arrow"></button>
+          </div>
+        </div>
         <div class="extra-info">
-          <p class="info-title">Special Offers</p>
-          <div class="info-text">Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et.</div>
+          <span class="info-title">Special Offers</span>
+          <span class="info-text">Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et.</span>
           <button class="explore-btn">Explore more</button>  
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="advantages-block">
-    <h3 class="advantages-subtitle">Why Choose Kavalier Hotel</h3>
-    <h2 class="advantages-title">The Advanteges</h2>
+  <section class="advantages-section">
+    <h3 class="block-subtitle advantages-subtitle">Why Choose Kavalier Hotel</h3>
+    <h2 class="block-title advantages-title">The Advanteges</h2>
     <div class="advantages-list">
       <div class="advantage first-adv">
-        <img src="/stydy_tania/img/first-adv.svg" alt="advantages" class="adv-img first-img">
-        <div class="adv-text-block">
-          <p class="adv-title">Best Price Guarantee</p>
-          <p class="adv-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Suspendisse sollicitudin velit sed leo.</p>
+        <img src="/stydy_tania/img/first-adv.svg" alt="advantages" class="adv-img">
+        <div class="adv-block">
+          <span class="adv-title">Best Price Guarantee</span>
+          <span class="adv-text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Suspendisse sollicitudin velit sed leo.</span>
         </div>
       </div>
       <div class="advantage second-adv">
-        <img src="/stydy_tania/img/second-adv.svg" alt="advantages" class="adv-img second-img">
-        <div class="adv-text-block">
-          <p class="adv-title">Book Now to Secure Availability</p>
-          <p class="adv-text">Ut pharetra augue nec augue. Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa.</p>
+        <img src="/stydy_tania/img/second-adv.svg" alt="advantages" class="adv-img">
+        <div class="adv-block">
+          <span class="adv-title">Book Now to Secure Availability</span>
+          <span class="adv-text">Ut pharetra augue nec augue. Nam elit agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa.</span>
         </div>
       </div>
       <div class="advantage third-adv">
-        <img src="/stydy_tania/img/third-adv.svg" alt="advantages" class="adv-img third-img">
-        <div class="adv-text-block">
-          <p class="adv-title">Late Check-out on Request</p>
-          <p class="adv-text">Quisque diam lorem, interdum vitae,dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum</p>
+        <img src="/stydy_tania/img/third-adv.svg" alt="advantages" class="adv-img">
+        <div class="adv-block">
+          <span class="adv-title">Late Check-out on Request</span>
+          <span class="adv-text">Quisque diam lorem, interdum vitae,dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum</span>
         </div>
       </div>
       <div class="advantage forth-adv">
-        <img src="/stydy_tania/img/forth-adv.svg" alt="advantages" class="adv-img forth-img">
-        <div class="adv-text-block">
-          <p class="adv-title">Free Wi-Fi Available</p>
-          <p class="adv-text">Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante.</p>
+        <img src="/stydy_tania/img/forth-adv.svg" alt="advantages" class="adv-img">
+        <div class="adv-block">
+          <span class="adv-title">Free Wi-Fi Available</span>
+          <span class="adv-text">Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis lacinia est. Proin dictum elementum velit. Fusce euismod consequat ante.</span>
         </div>
       </div>
       <div class="advantage fifth-adv">
-        <img src="/stydy_tania/img/fifth-adv.svg" alt="advantages" class="adv-img fifth-img">
-        <div class="adv-text-block">
-          <p class="adv-title">Meetings & Special Events</p>
-          <p class="adv-text">Lorem ipsum dolor sit amet, consectetuer adipisMauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet.</p>
+        <img src="/stydy_tania/img/fifth-adv.svg" alt="advantages" class="adv-img">
+        <div class="adv-block">
+          <span class="adv-title">Meetings & Special Events</span>
+          <span class="adv-text">Lorem ipsum dolor sit amet, consectetuer adipisMauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet.</span>
         </div>
       </div>
       <div class="advantage sixth-adv">
-        <img src="/stydy_tania/img/sixth-adv.svg" alt="advantages" class="adv-img sixth-img">
-        <div class="adv-text-block">
-          <p class="adv-title">Free Cancellation Anytime</p>
-          <p class="adv-text">In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim.</p>
+        <img src="/stydy_tania/img/sixth-adv.svg" alt="advantages" class="adv-img">
+        <div class="adv-block">
+          <span class="adv-title">Free Cancellation Anytime</span>
+          <span class="adv-text">In pede mi, aliquet sit amet, euismod in,auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim.</span>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
-  <div class="rooms-block">
-    <h3 class="rooms-subtitle block-subtitle">The Pleasure of luxury</h3>
-    <h2 class="rooms-title block-title">Rooms & Suites</h2>
+  <section class="rooms-section">
+    <h3 class="block-subtitle rooms-subtitle">The Pleasure of luxury</h3>
+    <h2 class="block-title rooms-title">Rooms & Suites</h2>
     <ul class="rooms-list">
       <li class="rooms-type">Classic</li>
       <li class="rooms-type active">Superior</li>
@@ -223,19 +243,19 @@
       <li class="rooms-type">Suit</li>
     </ul>
     <div class="rooms-info-block">
-      <div class="about-room-block">
-        <div class="img-gallery">
+      <div class="room-block">
+        <div class="room-gallery">
           <img src="/stydy_tania/img/Superiour.png" alt="Superior room" class="rooms-photo">
           <div class="gallery-btn">
             <button class="arrow-btn previous-btn"><img src="/stydy_tania/img/arrow white.svg" alt="previous" class="next-arrow"></button>
             <button class="arrow-btn next-btn"><img src="/stydy_tania/img/arrow white.svg" alt="next" class="previous-arrow"></button>
           </div>
         </div>
-        <div class="about-room">
-          <h2 class="about-room-title">Superior</h2>
-          <p class="about-room-text">The room is 27 square meters and consists of one living room with carpet floor and a bathroom with shower (all rooms with large balcony and pool view).
+        <div class="room-info">
+          <h5 class="about-room-title">Superior</h5>
+          <span class="about-room-text">The room is 27 square meters and consists of one living room with carpet floor and a bathroom with shower (all rooms with large balcony and pool view).
             The room has one double bed or two single beds, a desk with an armchair and a classic wardrobe. For the convenience of the guest there is satellite TV + smart TV, central air conditioning, heating, safe, mini bar, telephone, towels, slippers, bathrobes, hair dryer and cosmetic set. It is possible to deliver an extra bed.
-            Room rates include buffet breakfast, one parking space on site and Wi-Fi.</p>
+            Room rates include buffet breakfast, one parking space on site and Wi-Fi.</span>
           <div class="room-btn-block">
             <button class="book-btn room-btn details-btn">Details</button>
             <button class="book-btn room-btn">Book now</button>
@@ -243,32 +263,31 @@
         </div>
       </div>
       <div class="all-rooms-block">
-        <div class="simple-room passive-room">
+        <div class="simple-room">
           <img src="/stydy_tania/img/classic.png" alt="classic room" class="room-img">
           <h4 class="room-name">Classic</h4>
         </div>
-        <div class="simple-room active-room">
+        <div class="simple-room">
           <img src="/stydy_tania/img/superior.png" alt="superior room" class="room-img">
           <h4 class="room-name">Superior</h4>
         </div>
-        <div class="simple-room passive-room">
+        <div class="simple-room">
           <img src="/stydy_tania/img/family.png" alt="family superior room" class="room-img">
           <h4 class="room-name">Family Superior</h4>
         </div>
-        <div class="simple-room passive-room">
+        <div class="simple-room">
           <img src="/stydy_tania/img/semi.png" alt="semi-suit room" class="room-img">
           <h4 class="room-name">SEmi-suit</h4>
         </div>
-        <div class="simple-room passive-room">
+        <div class="simple-room">
           <img src="/stydy_tania/img/suit.png" alt="suit room" class="room-img">
           <h4 class="room-name">Suit</h4>
         </div>
       </div>
-      <div class="rooms-border-block"></div>
     </div>
-  </div>
+  </section>
 
-  <div class="blog-block">
+  <section class="blog-section">
     <h3 class="blog-subtitle block-subtitle">What’s New</h3>
     <h2 class="blog-title block-title">Blog</h2>
     <div class="blog-info-block">
@@ -279,8 +298,8 @@
           <span class="news-time">NOVEMBER 28, 2019 / in 
             <span class="news-section">SIGHTS</span>
           </span>
-          <p class="news-title">Ut Tellus Dolor </p>
-          <p class="news-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
+          <span class="news-title">Ut Tellus Dolor </span>
+          <span class="news-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</span>
           <button class="blog-btn">Read More</button>
           <div class="blog-border-block-bottom"></div> 
         </div>
@@ -292,8 +311,8 @@
           <span class="news-time">NOVEMBER 19, 2019 / IN 
             <span class="news-section">News</span>
           </span>
-          <p class="news-title">Vivamus Eget Nibh</p>
-          <p class="news-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
+          <span class="news-title">Vivamus Eget Nibh</span>
+          <span class="news-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</span>
           <button class="blog-btn">Read More</button>
           <div class="blog-border-block-bottom"></div> 
         </div>
@@ -305,15 +324,15 @@
           <span class="news-time">NOVEMBER 8, 2019 / in
             <span class="news-section">Tips</span>
           </span>
-          <p class="news-title">Nemo Enim Ipsam</p>
-          <p class="news-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</p>
+          <span class="news-title">Nemo Enim Ipsam</span>
+          <span class="news-text">Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis.</span>
           <button class="blog-btn">Read More</button>  
           <div class="blog-border-block-bottom"></div> 
         </div>
       </div>
     </div>
     <button class="news-btn">See all news</button>
-  </div>
+  </section>
 
   <footer>
     <div class="footer-top">
