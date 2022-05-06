@@ -33,7 +33,7 @@
   color: #000000;
 }
 
-.main-info {
+.main-section {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.3) 100%), linear-gradient(180deg, rgba(2, 2, 2, 0.3) 0%, rgba(255, 255, 255, 0) 100%), url(/stydy_tania/img/facade.jpeg), #FFFFFF;
   background-size: cover;
   background-position: center;
@@ -272,7 +272,7 @@
 }
 
 @media (max-width: 1280px) {
-  .main-info {
+  .main-section {
     height: 720px;
   }
 
@@ -323,15 +323,7 @@
 }
 
 @media (max-width: 1024px) {
-  .block-subtitle {
-    height: 22px;
-  }
-
-  .block-title {
-    height: 42px;
-  }
-
-  .main-info {
+  .main-section {
     height: 1024px;
   }
 
@@ -384,27 +376,13 @@
     margin-left: 15%;
   }
 
-
-
-  /* .search-btn {
-    margin-right: 11px;
-  } */
-
-  /* .language-btn {
-    margin-right: 19px;
-  }
-
-  .book-btn {
-    margin-left: 0;
-  } */
-
   .info-block {
     margin-top: 374px;
   }
 }
 
 @media (max-width: 475px) {
-  .main-info {
+  .main-section {
     height: 566px;
   }
 
@@ -413,13 +391,14 @@
   }
 
   .block-subtitle {
+    margin-top: 23px;
     height: 12px;
     font-size: 12px;
     line-height: 16px;
   }
 
   .block-title {
-    height: 24px;
+    height: 36px;
     font-size: 18px;
     line-height: 20px;
   }

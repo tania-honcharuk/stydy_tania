@@ -76,7 +76,6 @@
   .adv-block {
     margin-right: 82px;
   }
-  
 }
 
 @media (max-width: 1440px) {
@@ -100,10 +99,6 @@
   .adv-text {
     font-size: 14px;
   }
-}
-
-@media (max-width: 1280px) {
-  
 }
 
 @media (max-width: 1024px) {
@@ -236,65 +231,3 @@
     width: 100%;
   }
 }
-
-@media (max-width: 325px) {
-  
-}
-
-@media (max-width: 1680px) {
-  
-}
-
-@media (max-width: 1440px) {
-  
-}
-
-@media (max-width: 1280px) {
-  
-}
-
-@media (max-width: 1024px) {
-  
-}
-
-@media (max-width: 768px) {
-  
-}
-
-@media (max-width: 475px) {
-  
-}
-
-@media (max-width: 325px) {
-  
-}
-/*
-
-@media (max-width: 475px) {
-  .advantages-block {
-    padding: 0 25px 21px 33px;
-  }
-
-  .advantages-subtitle {
-    margin-top: 16px;
-  }
-
-  .advantages-title {
-    margin-bottom: 26px;
-  }
-
-  
-}
-
-@media (max-width: 325px) {
-  .adv-img {
-    width: 33px;
-    height: 26px;
-  }
-
-  .adv-text-block {
-    margin: 10px 0 0 20px;
-  }
-
-  
-} */
